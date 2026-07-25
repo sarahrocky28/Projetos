@@ -41,7 +41,12 @@ body {
 
 .absolute{
 position: absolute;
+top: 0;
 bottom: 100px;
 right: 100px;
 background-color: green;
+}
+
+main{
+    
 }
