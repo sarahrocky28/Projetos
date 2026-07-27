@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100dvw;
+    height: 100dvh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #dc7ccd;
+    padding: 15px;
+}
+
+nav{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    padding: 10px 20px;
+    background-color: aliceblue;
+    border-radius:10px ;
+    align-items: center;
+}
+
+main{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    text-align: center;
+    background-color: #dc7ccd;
+}
+#logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.msg{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #da72ca ;
+    position: absolute;
+    top: -10px;
+    right: -5px;
+}
+
+#mensagem{
+    position: relative;
+}
+
+.card {
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    padding: 10px;
+}
